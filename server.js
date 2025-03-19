@@ -9,7 +9,7 @@ const users = require('./models/users');
 const cors = require('cors');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 require('dotenv').config();
-const db = require('../backend/db');
+const db = require('./db');
 const products = require('./models/product');
 const cart = require('./models/cart');
 const orders = require('./models/orders');
