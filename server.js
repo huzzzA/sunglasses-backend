@@ -5,7 +5,7 @@ const initializePassport = require('./models/passportconfig');
 const session = require("express-session");
 const app = express()
 const port = 5000
-const users = require('../backend/models/users');
+const users = require('./models/users');
 const cors = require('cors');
 const GoogleStrategy = require('passport-google-oauth20').Strategy;
 require('dotenv').config();
